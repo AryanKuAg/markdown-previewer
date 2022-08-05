@@ -54,13 +54,15 @@ function App() {
   function modifyAndSetMdText(text) {
     setMdText(text);
   }
+
   return (
-    <div>
+    <div className="mx-auto w-4/5">
       <Box title={"Editor"}>
         <Editor modifyAndSetMdText={modifyAndSetMdText} value={mdText} />
       </Box>
-
-      <Preview mdText={mdText} />
+      <Box title={"Preview"}>
+        <Preview mdText={mdText} />
+      </Box>
     </div>
   );
 }

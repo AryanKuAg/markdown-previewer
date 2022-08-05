@@ -3,7 +3,12 @@ import React from "react";
 function Editor({ modifyAndSetMdText, value }) {
   return (
     <textarea
-      style={{ width: "98vw", height: "200px" }}
+      style={{
+        width: "100%",
+        color: "#222831",
+        outline: "none",
+      }}
+      className="p-4 bg-indigo-100"
       id="editor"
       onChange={(event) => {
         const text = event.target.value;

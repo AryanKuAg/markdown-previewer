@@ -12,3 +12,5 @@ body{
   background-color: #a5b4fc
   ;
 }
+
+.github-fork-ribbon:before { background-color: #4338ca; }

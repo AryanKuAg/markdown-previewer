@@ -5,6 +5,7 @@ function Editor({ modifyAndSetMdText, value }) {
     <textarea
       style={{
         width: "100%",
+        height: "45vh",
         color: "#222831",
         outline: "none",
       }}
